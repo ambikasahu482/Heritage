@@ -190,13 +190,13 @@ const Navbar = () => {
               {item.name}
             </NavLink>
           ))}
-          <div className="pt-3 border-t border-gray-100">
+          {/* <div className="pt-3 border-t border-gray-100">
             <Link
               to="/login"
               className="block w-full bg-orange-500 hover:bg-orange-600 text-white text-center font-medium py-2.5 rounded-full transition"
             >
               Login
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
